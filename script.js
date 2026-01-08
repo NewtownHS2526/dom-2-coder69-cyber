@@ -593,38 +593,4 @@ if (clearCartBtn) {
 // Initialize cart display
 updateCartDisplay();
 
-/* 
-================================================================================
-KEY TAKEAWAYS - Summary
-================================================================================
-
-1. getElementById('id-name')
-   - Use when: Element is UNIQUE (only one exists)
-   - Returns: Single element
-   - NO # prefix needed
-   - Best for: Buttons, forms, unique containers
-
-2. getElementsByClassName('class-name')
-   - Use when: MULTIPLE elements share the same purpose
-   - Returns: HTMLCollection (array-like)
-   - NO . prefix needed
-   - MUST loop through the collection!
-   - Best for: Cards, buttons, list items
-
-3. querySelector('selector')
-   - Use when: You want flexibility with CSS selectors
-   - Returns: First matching element
-   - YES, use # for IDs and . for classes (like CSS!)
-   - Best for: Modern JavaScript, complex selectors
-
-ID vs CLASS:
-- ID = Unique identifier (one per page) → Use getElementById
-- Class = Reusable style/group identifier (many per page) → Use getElementsByClassName
-
-textContent vs innerHTML:
-- textContent = Plain text only (safer, faster)
-- innerHTML = Can include HTML tags (more powerful, but be careful!)
-
-Remember: Always check if element exists before using it!
-if (element) { ... }
-*/
+/
